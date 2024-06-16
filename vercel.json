@@ -10,4 +10,10 @@
             "dest": "djangoprojectname/wsgi.py"
         }
     ]
+    "rewrites": [
+        {
+            "source": "/(.*)", 
+            "destination": "/" 
+        }
+    ]
 }
